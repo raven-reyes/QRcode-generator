@@ -1,0 +1,37 @@
+<!doctype html>
+<head>
+    <title>QR Code Generator</title>
+    <!-- Required meta tags -->
+     <meta charset="utf-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Bootstrap CSS -->
+     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- Custom CSS -->
+     <style>
+         .card {
+            margin: 0 auto;
+             float: none; 
+            margin-bottom: 10px; 
+        } 
+    </style>
+</head>
+<body>
+    <!-- Main Container -->
+    <div class="container">
+        <br>
+        <h1 class="text-center">QR CODE GENERATOR</h1>
+        <hr>
+
+        <!-- Image card -->
+        <div class="row mb-3">
+
+            <div class="card" style="width: 18rem;">
+                <img class="card-img-top" src=<%=src%> alt="QR Code Image">
+                <div class="card-body">
+                    <p class="card-text">Scan the QR Code to access data!</p>
+                </div>
+                <a href="/"><button type="button" class="btn btn-outline-secondary btn-lg">Back</button></a>
+            </div>
+        </div>
+</body>
+</html>

@@ -1,0 +1,16 @@
+{
+  "name": "qrcodesnode",
+  "version": "1.0.0",
+  "description": "This code will enable you to generate a QR code in Node.js from URLs and Text and preview it as a simple webpage.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.1",
+    "mongoose": "^6.3.5",
+    "qrcode": "^1.5.0"
+  }
+}
