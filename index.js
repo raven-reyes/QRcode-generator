@@ -1,4 +1,4 @@
-// Calling the packages that we need
+// importing the packages that we need
 const express = require("express");
 const path = require('path');
 const app = express();
